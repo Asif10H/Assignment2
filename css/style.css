@@ -1,0 +1,110 @@
+p {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 20px;
+  color: #3e3e3e;
+}
+.same-color-heading {
+  font-family: Bebas Neue;
+  color: #363958;
+  font-size: 30px;
+}
+.sub-same-color-heading {
+  margin: 70px 0;
+  font-size: 55px;
+  color: #363958;
+}
+.color-hil-1 {
+  font-family: Bebas Neue;
+  color: #fabe4c;
+  font-size: 80px;
+}
+.color-hil-2 {
+  font-family: Bebas Neue;
+  color: #363958;
+  font-size: 100px;
+}
+.price-same-color {
+  color: #fabe4c;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+/*start navigation section*/
+/* header {
+  background-color: #fffbf0;
+} */
+.nav-font-size {
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c3c3c;
+}
+/*end navigation secion*/
+
+/*start about section*/
+
+/*end about section*/
+/*start woman jacket section*/
+.woman-heading-margin {
+  margin-top: 50px;
+}
+.buy-now-button {
+  width: 170px;
+  height: 60px;
+  color: white;
+  background-color: #a4bc46;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.penguin-card-footer {
+  background-color: white;
+  border: none;
+}
+.col-border {
+  border: none;
+}
+/*end woman jacket section*/
+
+/*start man jacket section*/
+.inside-box {
+  background: #f1f1f1;
+  border: 20px solid white;
+  border-radius: 40px;
+  padding: 50px;
+  height: 400px;
+}
+.inside-box img {
+  width: 100%;
+  height: 100%;
+}
+.outside-box {
+  width: 370px;
+  height: 550px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+.button-left {
+  margin-left: 80px;
+}
+/*end man jacket section*/
+
+/*start service section*/
+.img-tag img {
+  width: 80px;
+  height: 80px;
+}
+/*end service section*/
+
+/*start footer section*/
+.footer-section {
+  font-size: 20px;
+  background-color: #fffbf0;
+  color: #3e3e3e;
+}
+.location-section {
+  margin-left: 120px;
+}
+/*end footer section*/

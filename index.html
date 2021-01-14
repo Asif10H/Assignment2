@@ -3,14 +3,342 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Penguin Fashion</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <!-- start navigation section -->
+    <header class="container mt-4">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              style="width: 290px; height: 40"
+              src=" Logo, Icon/Group 33072.png"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav nav-font-size">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Product</a>
+              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="#">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end navigation secion -->
+
+    <main class="contanier">
+      <!-- start about section -->
+      <section class="container">
+        <div class="row d-flex align-items-center p-5 about-section">
+          <div class="col-md-7">
+            <h5 class="color-hil-1">Be the Penguins</h5>
+            <h5 class="color-hil-2">of Winter</h5>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button class="btn btn-warning buy-now-button">
+              <img
+                style="width: 30px"
+                src="Logo, Icon/shopping-cart 1.png"
+                alt=""
+              />Buy Now
+            </button>
+          </div>
+          <div class="col-md-5 filee">
+            <img src="Image/profile.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+      </section>
+
+      <!-- end about section -->
+
+      <!--start woman jacket section -->
+      <section id="woman-jacket" class="mt-5 container picture-size">
+        <h3 class="sub-same-color-heading woman-heading-margin">
+          WOMAN JACKET
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card penguin-card h-100 shadow outside-box">
+              <div class="inside-box">
+                <img src="image/SeekPng 1.png" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title same-color-heading">
+                  Yellow Coat Jacket
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex">
+                <h5 class="price-same-color">$234</h5>
+                <button class="button-left btn btn-warning buy-now-button">
+                  <img
+                    style="width: 30px"
+                    src="Logo, Icon/shopping-cart 1.png"
+                    alt=""
+                  />Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow outside-box">
+              <din class="inside-box">
+                <img
+                  src="image/PngItem_2597366 1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </din>
+              <div class="card-body">
+                <h5 class="card-title same-color-heading">Ladies Jacker</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex">
+                <h5 class="price-same-color">$234</h5>
+                <button class="button-left btn btn-warning buy-now-button">
+                  <img
+                    style="width: 30px"
+                    src="Logo, Icon/shopping-cart 1.png"
+                    alt=""
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow outside-box">
+              <div class="inside-box">
+                <img src="image/image 15.png" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title same-color-heading">
+                  Woman Leather Jacker
+                </h5>
+                <p class="card-text">
+                  TThis card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex">
+                <h5 class="price-same-color">$234</h5>
+                <button class="button-left btn btn-warning buy-now-button">
+                  <img
+                    style="width: 30px"
+                    src="Logo, Icon/shopping-cart 1.png"
+                    alt=""
+                  />Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--end woman jacket section -->
+
+      <!-- start man jacket section -->
+      <section id="man-jacket" class="mt-5 container picture-size">
+        <h3 class="sub-same-color-heading">MAN JACKET</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow outside-box">
+              <din class="inside-box">
+                <img src="image/image 11.png" class="card-img-top" alt="..." />
+              </din>
+              <div class="card-body">
+                <h5 class="card-title same-color-heading">
+                  Yellow Coat Jacket
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex">
+                <h5 class="price-same-color">$234</h5>
+                <button class="button-left btn btn-warning buy-now-button">
+                  <img
+                    style="width: 30px"
+                    src="Logo, Icon/shopping-cart 1.png"
+                    alt=""
+                  />Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow outside-box">
+              <div class="inside-box">
+                <img src="image/vippng 1.png" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title same-color-heading">Ladies Jacker</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex">
+                <h5 class="price-same-color">$234</h5>
+                <button class="button-left btn btn-warning buy-now-button">
+                  <img
+                    style="width: 30px"
+                    src="Logo, Icon/shopping-cart 1.png"
+                    alt=""
+                  />
+                  Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow outside-box">
+              <div class="inside-box">
+                <img src="image/toppng 1.png" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title same-color-heading">
+                  Woman Leather Jacker
+                </h5>
+                <p class="card-text">
+                  TThis card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+              </div>
+              <div class="card-footer penguin-card-footer d-flex">
+                <h5 class="price-same-color">$234</h5>
+                <button class="button-left btn btn-warning buy-now-button">
+                  <img
+                    style="width: 30px"
+                    src="Logo, Icon/shopping-cart 1.png"
+                    alt=""
+                  />Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end man jacket section -->
+
+      <!-- start service section -->
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="shadow d-flex mt-5">
+                <div class="img-tag">
+                  <img src="Logo, Icon/image 12.png" alt="" />
+                </div>
+                <div class="px-5">
+                  <h5 class="same-color-heading">Find the Perfect Fit</h5>
+                  <p>
+                    Everybody is different, which is why we offer styles for
+                    every body.
+                  </p>
+                </div>
+              </div>
+              <div class="shadow d-flex mt-5">
+                <div class="img-tag">
+                  <img src="Logo, Icon/image 13.png" alt="" />
+                </div>
+                <div class="px-5">
+                  <h5 class="same-color-heading">Free Exchanges</h5>
+                  <p>
+                    One of the many reasons you can shop with peace of mind.
+                  </p>
+                </div>
+              </div>
+              <div class="shadow d-flex mt-5">
+                <div class="img-tag">
+                  <img src="Logo, Icon/image 14.png" alt="" />
+                </div>
+                <div class="px-5">
+                  <h5 class="same-color-heading">Contact Our Seller</h5>
+                  <p>
+                    They are here to help you. That's quite literally what we
+                    pay them for.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="Logo, Icon/XMLID 1.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end service section -->
+    </main>
+    <!-- start footer section -->
+    <div class="mt-5 pt-5 footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 about-us">
+            <h2>About Penguin Fashion</h2>
+            <p class="pr-5 about-dis">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic
+            </p>
+          </div>
+          <div class="col-lg-4 location mt-1 location-section">
+            <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+            <p class="mb-0">Chakaria, Chittagong, Bangaldesh</p>
+            <p class="mb-0"><i class=""></i>01816-112233</p>
+            <p><i class=""></i>info@admin.com</p>
+          </div>
+        </div>
+        <div class="row mt-1">
+          <div class="col">
+            <p>
+              <small>©2021. All Rights Reserved.</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer section -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
